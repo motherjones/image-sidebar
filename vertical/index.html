@@ -1,76 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Vertical Image Sidebar</title>
+    <head>
+        <meta name="generator" content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.12), see www.w3.org">
+        <meta charset="UTF-8">
+        <title>
+            Vertical Image Sidebar
+        </title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript">
+</script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript">
+</script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+        <style type="text/css">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        #vertImgSidebar {
+        width: 10em;
+        text-align: center;
+        font-family:'Oswald', sans-serif;
+        border-right: dotted 1px #ccc;
+        border-left: dotted 1px #ccc;
+        }
 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-<style type="text/css">
+        #vertImgSidebar ul {
+        list-style:none;
+        }
 
-  #vertImgSidebar {
-    width: 10em;
-    text-align: center;
-    font-family:'Oswald', sans-serif;
-    border-right: dotted 1px #ccc;
-    border-left: dotted 1px #ccc;
-  }
+        #vertImgSidebar li {
+        padding-bottom: 1em;
+        }
 
-  #vertImgSidebar ul {
-    list-style:none;
-  }
+        #vertImgSidebar p {
+        font-weight: 300;
+        }
 
-  #vertImgSidebar li {
-    padding-bottom: 1em;
-  }
+        #vertImgSidebar img {
+        padding-bottom: .3em;
+        border-radius: 50%;
+        }
 
-  #vertImgSidebar p {
-    font-weight: 300;
-  }
+        #vertImgSidebar span {
+        font-weight: bold;
+        }  
 
-  #vertImgSidebar img {
-    padding-bottom: .3em;
-    border-radius: 50%;
-  }
-
-  #vertImgSidebar span {
-    font-weight: bold;
-  }  
-
-</style>
-
-<!-- This is your list. Your images have to be hosted somewhere and have their own URLS. Create (or subtract) the invididual li entries based on how many entries you want.-->
-<div id="vertImgSidebar">
- 	<h3>Hed tk</h3>
-    <ul class="list-inline">
-     	<li>
-        <img class="list-pic" src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
-        <p><span>Growers:</span> Short sentence here or something like that. Keep it pithy.</p>
-      </li>
-
-      <li>
-        <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
-        <p><span>Shippers:</span> Short sentence here or something like that. Keep it pithy.</p>
-      </li>
-
-      <li>
-        <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
-        <p><span>Distributors:</span> Short sentence here or something like that. Keep it pithy.</p>
-      </li>
-
-      <li>
-        <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
-        <p><span>Store:</span> Short sentence here or something like that. Keep it pithy.</p>
-      </li>
-
-      <li>
-        <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
-        <p><span>Consumer:</span> Short sentence here or something like that. Keep it pithy.</p>
-      </li>
-                                 
-    </ul>
-</div>  
+        </style><!-- This is your list. Your images have to be hosted somewhere and have their own URLS. Create (or subtract) the invididual li entries based on how many entries you want.-->
+    </head>
+    <body>
+        <div id="vertImgSidebar">
+            <h3>
+                Hed tk
+            </h3>
+            <ul class="list-inline">
+                <li>
+                    <img class="list-pic" src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
+                    <p>
+                        <span>Growers:</span> Short sentence here or something like that. Keep it pithy.
+                    </p>
+                </li>
+                <li>
+                    <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
+                    <p>
+                        <span>Shippers:</span> Short sentence here or something like that. Keep it pithy.
+                    </p>
+                </li>
+                <li>
+                    <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
+                    <p>
+                        <span>Distributors:</span> Short sentence here or something like that. Keep it pithy.
+                    </p>
+                </li>
+                <li>
+                    <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
+                    <p>
+                        <span>Store:</span> Short sentence here or something like that. Keep it pithy.
+                    </p>
+                </li>
+                <li>
+                    <img src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
+                    <p>
+                        <span>Consumer:</span> Short sentence here or something like that. Keep it pithy.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
