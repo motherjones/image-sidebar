@@ -47,14 +47,15 @@ Again, all we're really talking about here is a a series of divs that have a thu
 
 ### Modify the index.html file (horizontal)
 
-Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the horizontal directory in the repo. The HTML is a bit different. In that file, look for the div that begins at line 46 (don't mess with the divs above it, as those pull in the styling for the entire row of images): 
+Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the horizontal directory in the repo. The HTML is a bit different. In that file, look for the div that begins at line TK (don't mess with the divs above it, as those pull in the styling for the entire row of images): 
 ```html
-<div class="col-xs-3">
-    <h5 class="caption">Hed for individual chart blog post</h5
+<div class="row">
+    <a href="LINK TO ANOTHER PAGE GOES HERE" target="_blank"><div class="col-xs-3">
+      <h5 class="caption">Back to the Future</h5
         <a href="#" class="thumbnail">
-          <img src="YOUR IMAGE URL GOES HERE" alt="WORD FOR IMAGE">
-        </a>
-</div>
+        <img src="YOUR IMAGE URL GOES HERE" alt="WORD FOR IMAGE">
+    </a>
+</div></a>
 ```
 Again, each of your images will need to be uploaded somewhere and have a unique URL. That goes in the middle there next to the "img src=". For MoJo, our shell is 630 px wide, so we've found that four images at 125px x 125px seems to work best. Your shell might be different. Do the math accordingly, size your image, and drop those URLs in. If you want more than one row, look for the div that starts with <div class="row" and just keep adding them. We're all on our own journey.
 
