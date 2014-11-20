@@ -43,4 +43,8 @@ Voiala! You have a vertical image side bar. Now let's take a look at the horizon
 
 ## How it works
 
-Again, all we're really talking about here is a 
+Again, all we're really talking about here is a a series of divs that have a thumbnail image and some text that can be linked out. Pretty straightforward. The styling contained within the index.html file should take care of lining it all up for you. 
+
+### Modify the index.html file
+
+
