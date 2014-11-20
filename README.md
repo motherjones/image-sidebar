@@ -37,6 +37,10 @@ Voiala! You have a vertical image side bar. Now let's take a look at the horizon
   <img width="50%" src="https://github.com/motherjones/image-sidebar/blob/master/img/Screen%20Shot%202014-11-20%20at%202.44.12%20PM.png" alt="screenshot"/>
 </p>
 
-## Examples in the wild
+## Examples in the wild (horizontal)
 
 [Chart: As Top Tax Rates Dropped, Top Incomes Soared](http://www.motherjones.com/mojo/2014/09/income-inequality-tax-rates-income)
+
+## How it works
+
+Again, all we're really talking about here is a 
