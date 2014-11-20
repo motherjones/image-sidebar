@@ -1,6 +1,6 @@
 Clean image sidebar and inline horizontal sidebar
 =============
-Sometimes you need a clean image-driven sidebar, or a horizonatal sidebar. They're handy. Take a look:
+Sometimes you need a clean image-driven sidebar, or a horizonatal sidebar. They're handy. Let's take a look at the vertical image sidebar:
 
 <p align="center">
   <img width="50%" src="https://github.com/motherjones/image-sidebar/blob/master/img/Screen%20Shot%202014-11-20%20at%2012.56.16%20PM.png" alt="screenshot"/>
