@@ -45,6 +45,14 @@ Voiala! You have a vertical image side bar. Now let's take a look at the horizon
 
 Again, all we're really talking about here is a a series of divs that have a thumbnail image and some text that can be linked out. Pretty straightforward. The styling contained within the index.html file should take care of lining it all up for you. 
 
-### Modify the index.html file
+### Modify the index.html file (horizontal)
 
-Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the 
+Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the horizontal directory in the repo. The HTML is a bit different. In that file, look for the div that begins at line 46 (don't mess with the divs above it, as those pull in the styling for the entire row of images): 
+```html
+<div class="col-xs-3">
+            <h5 class="caption">Hed for individual chart blog post</h5
+                <a href="#" class="thumbnail">
+                    <img src="YOUR IMAGE URL GOES HERE" alt="125x125">
+                </a>
+            </div>
+```
