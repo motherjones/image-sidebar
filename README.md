@@ -59,8 +59,16 @@ Again, you should have all of these files locally at this point. Make sure you'r
 ```
 Again, each of your images will need to be uploaded somewhere and have a unique URL. That goes in the middle there next to the "img src=". For MoJo, our shell is 630 px wide, so we've found that four images at 125px x 125px seems to work best. Your shell might be different. Do the math accordingly, size your image, and drop those URLs in. If you want more than one row, look for the div that starts with <div class="row" and just keep adding them. We're all on our own journey.
 
-Once you've added in your images, save your index.html file and upload that to your server. The best way to do this is to iframe the whole thing. It's pretty straighforward (here's how to make an iframe). This is what ours looked like for this project: 
+Once you've added in your images, save your index.html file and upload that to your server. The best way to do this is to iframe the whole thing. It's pretty straighforward [(here's how to make an iframe)](http://www.w3schools.com/tags/tag_iframe.asp). This is what ours looked like for this project: 
 
 ```html
-<iframe frameborder="0" height="198" scrolling="no" src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/nav/day-4.html" width="630"></iframe>
+<iframe frameborder="0" height="198" scrolling="no" src="YOUR INDEX.HTML URL GOES HERE" width="WIDTH YOU WANT"></iframe>
 ```
+That should do it! You've made internet!
+
+## Questions?
+
+Hit us up by email, or Twitter: [@jaeahjlee](https://twitter.com/jaeahjlee) or [@tasneemraja](https://twitter.com/tasneemraja)
+
+## License
+Copyright (c) 2012 Mother Jones
