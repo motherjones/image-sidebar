@@ -47,4 +47,4 @@ Again, all we're really talking about here is a a series of divs that have a thu
 
 ### Modify the index.html file
 
-
+Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the 
