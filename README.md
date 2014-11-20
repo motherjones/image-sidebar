@@ -64,7 +64,7 @@ Once you've added in your images, save your index.html file and upload that to y
 ```html
 <iframe frameborder="0" height="198" scrolling="no" src="YOUR INDEX.HTML URL GOES HERE" width="WIDTH YOU WANT"></iframe>
 ```
-That should do it! You've made internet!
+Embed that iframe html in your CMS' source view and that should do it! You've made internet!
 
 ## Questions?
 
