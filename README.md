@@ -34,7 +34,7 @@ You can add as many < li >  < /li > items as you want. You could have one or a g
 Voiala! You have a vertical image side bar. Now let's take a look at the horizontal image bar:
 
 <p align="center">
-  <img width="50%" src="" alt="screenshot"/>
+  <img width="50%" src="https://github.com/motherjones/image-sidebar/blob/master/img/Screen%20Shot%202014-11-20%20at%202.44.12%20PM.png" alt="screenshot"/>
 </p>
 
 [Horizontal sidebar example](http://www.motherjones.com/mojo/2014/09/income-inequality-tax-rates-income)
