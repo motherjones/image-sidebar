@@ -29,6 +29,6 @@ By now you should have this entire repo downloaded locally. In the index.html fi
           </p>
     </li>
   ```
-You can add as many <li></li> items as you want. You could have one or a gagillion. Up to you. Just grab the opening <li> tag and the closing </li> tag.
+You can add as many < li >  < /li > items as you want. You could have one or a gagillion. Up to you. Just grab the opening <li> tag and the closing </li> tag.
 
 [Horizontal sidebar example](http://www.motherjones.com/mojo/2014/09/income-inequality-tax-rates-income)
