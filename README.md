@@ -22,13 +22,13 @@ The vertical sidebar is essentially just a list with images in it. Gather your i
 By now you should have this entire repo downloaded locally. In the index.html file, look at the HTML starting at line 55: 
 
 ```html
-  <li>
-                    <img class="list-pic" src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/bootstrap_mock/bs_mock_images/boot_mock_125x125.jpg" alt=" ">
-                    <p>
-                        <span>Growers:</span> Short sentence here or something like that. Keep it pithy.
-                    </p>
-                </li>
+    <li>
+        <img class="list-pic" src="YOUR IMAGE URL GOES HERE" alt="IMAGE OF SOMETHING">
+          <p>
+              <span>TITLE OF LIST ITEM HERE:</span> Short sentence here or something like that. Keep it pithy.
+          </p>
+    </li>
   ```
-
+You can add as many <li></li> items as you want. You could have one or a gagillion. Up to you. Just grab the opening <li> tag and the closing </li> tag.
 
 [Horizontal sidebar example](http://www.motherjones.com/mojo/2014/09/income-inequality-tax-rates-income)
