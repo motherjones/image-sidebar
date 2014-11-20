@@ -58,4 +58,4 @@ Again, you should have all of these files locally at this point. Make sure you'r
 ```
 Again, each of your images will need to be uploaded somewhere and have a unique URL. That goes in the middle there next to the "img src=". For MoJo, our shell is 630 px wide, so we've found that four images at 125px x 125px seems to work best. Your shell might be different. Do the math accordingly, size your image, and drop those URLs in. If you want more than one row, look for the div that starts with <div class="row" and just keep adding them. We're all on our own journey.
 
-Once you've added in your images
+Once you've added in your images, 
