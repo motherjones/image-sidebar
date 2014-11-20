@@ -13,6 +13,8 @@ Sometimes you need a clean image-driven sidebar, or a horizonatal sidebar. They'
 
 ## How it works
 
+*MoJo users:* Before you get started, following [these instructions](https://github.com/motherjones/story-tools#starting-a-new-project).
+
 The vertical sidebar is essentially just a list with images in it. Gather your images, gather your text, and you've got a list. Here's how:
 
 
