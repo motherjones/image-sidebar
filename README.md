@@ -47,7 +47,7 @@ Again, all we're really talking about here is a a series of divs that have a thu
 
 ### Modify the index.html file (horizontal)
 
-Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the horizontal directory in the repo. The HTML is a bit different. In that file, look for the div that begins at line TK (don't mess with the divs above it, as those pull in the styling for the entire row of images): 
+Again, you should have all of these files locally at this point. Make sure you're grabbing the index.html file from the horizontal directory in the repo. The HTML is a bit different. In that file, look for the div that begins at line 55: 
 ```html
 <div class="row">
     <a href="LINK TO ANOTHER PAGE GOES HERE" target="_blank"><div class="col-xs-3">
@@ -59,4 +59,8 @@ Again, you should have all of these files locally at this point. Make sure you'r
 ```
 Again, each of your images will need to be uploaded somewhere and have a unique URL. That goes in the middle there next to the "img src=". For MoJo, our shell is 630 px wide, so we've found that four images at 125px x 125px seems to work best. Your shell might be different. Do the math accordingly, size your image, and drop those URLs in. If you want more than one row, look for the div that starts with <div class="row" and just keep adding them. We're all on our own journey.
 
-Once you've added in your images, 
+Once you've added in your images, save your index.html file and upload that to your server. The best way to do this is to iframe the whole thing. It's pretty straighforward (here's how to make an iframe). This is what ours looked like for this project: 
+
+```html
+<iframe frameborder="0" height="198" scrolling="no" src="http://assets.motherjones.com/interactives/projects/2014/9/income_ineq_pt2/nav/day-4.html" width="630"></iframe>
+```
