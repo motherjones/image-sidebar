@@ -29,6 +29,10 @@ By now you should have this entire repo downloaded locally. In the index.html fi
           </p>
     </li>
   ```
-You can add as many < li >  < /li > items as you want. You could have one or a gagillion. Up to you. Just grab the opening and closing tags.
+You can add as many < li >  < /li > items as you want. You could have one or a gagillion. Up to you. Just grab the opening and closing tags. The index.html file shuld also have all the styling you need, and can be adjusted there. Some CMSs might require you to copy that out and put it in a CSS field (ours does) but that's simple.
+
+Voiala! You have a vertical image side bar. Now let's take a look at the horizontal image bar:
+
+
 
 [Horizontal sidebar example](http://www.motherjones.com/mojo/2014/09/income-inequality-tax-rates-income)
