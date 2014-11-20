@@ -13,6 +13,7 @@ Sometimes you need a clean image-driven sidebar, or a horizonatal sidebar. They'
 
 ## How it works
 
+The vertical sidebar is essentially just a list with images in it. Gather your images, gather your text, and you've got a list. Here's how:
 
 
 [Horizontal sidebar example](http://www.motherjones.com/mojo/2014/09/income-inequality-tax-rates-income)
